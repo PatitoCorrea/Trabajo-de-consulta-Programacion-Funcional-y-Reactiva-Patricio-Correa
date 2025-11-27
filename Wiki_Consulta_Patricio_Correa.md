@@ -193,8 +193,6 @@ El trabajo consiste en:
     definidas.
 -   Crear una función `error` que compare el valor calculado con el
     valor esperado.
--   Documentar completamente el proceso en una Wiki.
--   Subir el proyecto a GitHub y presentarlo.
 
 ## 9.2 ¿Qué es la función `integracion` y por qué recibe otra función?
 
