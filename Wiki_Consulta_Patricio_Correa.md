@@ -162,17 +162,17 @@ evaluadas.
                                                           
   --------------------------------------------------------------------------
 
-##8. 2 Análisis del comportamiento de los errores
+## 8. 2 Análisis del comportamiento de los errores
 
 Los pequeños errores en las integrales 1, 2, 3, 5 y 7 son consecuencia de que estas funciones son suaves y se adaptan bien a la interpolación parabólica que aplica Simpson 1/3. 
 
 Por otro lado, la integral 4 exhibe un error mayor debido a que implica una función racional con una curvatura más pronunciada.  La integral 6 presenta el error relativo más significativo por la cercanía de una asíntota al intervalo, lo que impacta la exactitud. 
 
-##8. 3 Evaluación general del error
+## 8. 3 Evaluación general del error
 
 El método de Simpson 1/3 resulta muy exacto para polinomios, funciones racionales suaves y exponenciales. La magnitud del error se incrementa cuando hay cambios abruptos en la pendiente, la presencia de asíntotas o una curvatura más elevada. 
 
-##8. 4 Resumen del análisis de errores
+## 8. 4 Resumen del análisis de errores
 
 -   Los errores bajos respaldan la aplicación del método. 
 -   Las funciones polinómicas fueron las que mejor se aproximaron. 
