@@ -2,21 +2,11 @@
 
 # 1. Introducción
 
-El presente trabajo tiene como finalidad aplicar los conceptos
-fundamentales de la **programación funcional y reactiva**, especialmente
-el uso de **funciones de orden superior**, dentro de la resolución de un
-problema matemático real: la **aproximación de integrales definidas**
-mediante el método numérico de **Simpson 1/3**.
+El objetivo de este estudio es implementar las nociones esenciales de la programación funcional y reactiva, enfocándose particularmente en la utilización de funciones de mayor orden, para abordar un problema matemático concreto: la aproximación de integrales definidas a través del método numérico conocido como Simpson 1/3. 
 
-Durante el curso, se han revisado conceptos como funciones con nombre,
-funciones sin nombre, envío de funciones como parámetros y el uso básico
-de herramientas como `map` y `filter`. Con estas bases, este trabajo se
-orienta hacia la creación de una función genérica capaz de integrar
-cualquier función matemática definida en un intervalo.
+A lo largo del curso, se han examinado conceptos tales como funciones designadas, funciones anónimas, la transmisión de funciones como argumentos y el uso básico de herramientas como `map` y `filter`. Con estas bases establecidas, este estudio se centra en desarrollar una función versátil que pueda integrar cualquier función matemática definida en un rango específico. 
 
-El lenguaje utilizado es **Scala**, ejecutado en **IntelliJ IDEA**, el
-cual se adapta al paradigma funcional gracias a su sintaxis expresiva y
-a su capacidad de tratar las funciones como valores.
+El lenguaje que se emplea es Scala, que se ejecuta en IntelliJ IDEA, que se adapta bien al modelo funcional debido a su sintaxis clara y a su habilidad para manejar funciones como valores.
 
 ------------------------------------------------------------------------
 
