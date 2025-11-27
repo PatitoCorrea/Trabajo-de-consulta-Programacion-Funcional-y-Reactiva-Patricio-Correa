@@ -113,12 +113,10 @@ evaluadas.
 
 # 6. Conclusiones
 
--   Se aplicaron exitosamente funciones de orden superior en Scala.
--   El método Simpson 1/3 mostró gran precisión numérica.
--   La programación funcional permite desarrollar soluciones limpias,
-    concisas y matemáticamente expresivas.
--   Se reforzaron habilidades clave del curso: funciones anónimas, uso
-    de parámetros funcionales y problemas numéricos en Scala.
+-   Se implementaron con éxito funciones de alto nivel en Scala. 
+-   La técnica de Simpson 1/3 demostró una notable exactitud numérica.   
+-   La programación funcional facilita la creación de soluciones claras, compactas y con un enfoque matemático.   
+-   Se fortalecieron las habilidades fundamentales del curso: funciones sin nombre, aplicación de parámetros funcionales y desafíos numéricos en Scala.
 
 ------------------------------------------------------------------------
 
@@ -163,30 +161,22 @@ evaluadas.
                                                           preciso.
   --------------------------------------------------------------------------
 
-## 8.2 Interpretación del comportamiento de los errores
+##8. 2 Análisis del comportamiento de los errores
 
-Los errores muy pequeños en las integrales 1, 2, 3, 5 y 7 se deben a que
-estas funciones son suaves y adecuadas para la interpolación parabólica
-utilizada por Simpson 1/3.
+Los pequeños errores en las integrales 1, 2, 3, 5 y 7 son consecuencia de que estas funciones son suaves y se adaptan bien a la interpolación parabólica que aplica Simpson 1/3. 
 
-En cambio, la integral 4 presenta mayor error por tratarse de una
-función racional con mayor curvatura. La integral 6 muestra el mayor
-error relativo debido a la presencia de una asíntota cercana al
-intervalo, lo cual afecta la precisión.
+Por otro lado, la integral 4 exhibe un error mayor debido a que implica una función racional con una curvatura más pronunciada.  La integral 6 presenta el error relativo más significativo por la cercanía de una asíntota al intervalo, lo que impacta la exactitud. 
 
-## 8.3 Análisis global del error
+##8. 3 Evaluación general del error
 
-Simpson 1/3 es muy preciso para funciones polinomiales, racionales
-suaves y exponenciales. El error aumenta cuando aparecen cambios bruscos
-de pendiente, asíntotas o mayor curvatura.
+El método de Simpson 1/3 resulta muy exacto para polinomios, funciones racionales suaves y exponenciales. La magnitud del error se incrementa cuando hay cambios abruptos en la pendiente, la presencia de asíntotas o una curvatura más elevada. 
 
-## 8.3 Conclusión del análisis de errores
+##8. 4 Resumen del análisis de errores
 
--   Los errores bajos validan la implementación del método.
--   Las funciones polinomiales fueron las mejores aproximadas.
--   La función 1/(x−1) presentó el mayor error por su comportamiento
-    extremo.
--   Simpson 1/3 es adecuado para funciones continuas y suaves.
+-   Los errores bajos respaldan la aplicación del método. 
+-   Las funciones polinómicas fueron las que mejor se aproximaron. 
+-   La función 1/(x−1) mostró el error más elevado debido a su comportamiento extremo. 
+-   Simpson 1/3 es apropiado para funciones que son continuas y suaves.
 
 ------------------------------------------------------------------------
 
@@ -225,33 +215,10 @@ matemáticas a funciones anónimas en Scala.
 
 Para comparar aproximaciones y validar la precisión del método.
 
-## 9.6 ¿Por qué implementar `main`?
-
-Porque permite ejecutar y mostrar los resultados de forma ordenada.
-
-## 9.7 ¿Cómo encaja esto con la Programación Funcional?
-
-Este trabajo aplica directamente: - Funciones como valores. - Funciones
-de orden superior. - Funciones anónimas. - Inmutabilidad. - Expresividad
-matemática.
-
-## 9.8 ¿Qué aprendemos realmente?
-
--   Matemática
--   Programación funcional
--   Ingeniería del software
 
 ------------------------------------------------------------------------
 
 # 10. Bibliografía
 
--   Burden, R. & Faires, J. (2011). *Numerical Analysis*. Cengage
-    Learning.
--   Chapra, S. & Canale, R. (2015). *Métodos Numéricos para Ingenieros*.
-    McGraw-Hill.
--   Hutton, J. (2004). *Functional Programming in Scala*. Manning
-    Publications.
--   Odersky, M., Spoon, L., & Venners, B. (2016). *Programming in
-    Scala*. Artima Inc.
--   Atkinson, K. (1989). *An Introduction to Numerical Analysis*. Wiley.
--   Documentación oficial de Scala: https://scala-lang.org
+-   [Odersky, M., Spoon, L., & Venners, B. (2016). *Programming in
+    Scala*. Artima Inc.](https://pllab.github.io/cs162-spring17/scala/Programming-in-Scala.pdf)
