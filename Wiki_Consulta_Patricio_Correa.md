@@ -43,17 +43,13 @@ función:
 La función implementa la fórmula de Simpson 1/3 y recibe como parámetro
 otra función matemática.
 
-## 3.2 Evaluación de integrales definidas
-
-Se aproximaron siete integrales dadas por el docente.
-
-## 3.3 Función para el error
+## 3.2 Función para el error
 
 El error se define como:
 
 \[ \|valorEsperado - valorObtenido\| \]
 
-## 3.4 Implementación del método `main`
+## 3.3 Implementación del método `main`
 
 Desde `main` se imprimen los resultados de cada aproximación.
 
