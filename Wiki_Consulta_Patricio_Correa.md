@@ -41,12 +41,8 @@ la solución exacta es difícil o no se puede calcular de forma analítica.
 El método de Simpson 1/3 usa un polinomio cuadrático para aproximar una
 función:
 
-\[ `\int`{=tex}\_a\^b f(x)dx
-`\approx `{=tex}`\frac{b-a}{6}`{=tex}(f(a)+4f(`\bar`{=tex}{x})+f(b)) \]
+<img width="372" height="61" alt="Captura de pantalla 2025-11-26 a la(s) 8 33 12 p  m" src="https://github.com/user-attachments/assets/54526486-ef46-41f3-8904-8c901fd28093" />
 
-donde:
-
-\[ `\bar`{=tex}{x} = `\frac{a+b}{2}`{=tex} \]
 
 ------------------------------------------------------------------------
 
