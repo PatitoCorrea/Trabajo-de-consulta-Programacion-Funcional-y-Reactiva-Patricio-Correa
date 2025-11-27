@@ -1,4 +1,4 @@
-## \ Programación Funcional y Reactiva -- Trabajo de Consulta
+## Programación Funcional y Reactiva -- Trabajo de Consulta
 
 # 1. Introducción
 
