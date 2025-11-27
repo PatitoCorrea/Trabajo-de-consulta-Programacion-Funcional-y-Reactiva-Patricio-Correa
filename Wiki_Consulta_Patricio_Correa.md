@@ -159,6 +159,7 @@ evaluadas.
   7          0.785398           ≈ resultado7    ≈ error7  Función suave →
                                                           Simpson muy
                                                           preciso.
+                                                          
   --------------------------------------------------------------------------
 
 ##8. 2 Análisis del comportamiento de los errores
